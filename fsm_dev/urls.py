@@ -18,6 +18,5 @@ from django.urls import include, path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('xerapi.urls')),
-    path('', include('airapi.urls')),
+    path('', include('apis.urls')),
 ]
